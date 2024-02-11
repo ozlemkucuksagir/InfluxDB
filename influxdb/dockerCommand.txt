@@ -1,3 +1,7 @@
 docker run -d --name influxdb -p 8086:8086 influxdb
 
 docker run -d --name influxdb -p 8086:8086   -e INFLUXDB_USERNAME=kozikozi4242  -e INFLUXDB_PASSWORD=12345678   influxdb
+
+*****************
+
+http://localhost:8086/api/v2/buckets
